@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f1f1;
+}
+.navbar{
+    width: 100%;
+    background-color: #ffde86;
+    min-height: 10vh;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbtn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.ttl
+{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    padding-left: 1.5%;
+}
+.ttl2{
+    color: black;
+    text-decoration: none;
+    padding-left: 10%;
+}
+.bgimg
+{
+    margin-top: 1px;
+    height: 100vh;
+    width: 100%;
+}
+.bg{
+    background-image: url(./pexels-anna-shvets-3683056.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcommsg{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.747);
+    height: 40%;
+    width: 40%;
+    padding: 50px;
+    margin: 0% 20%;
+}
+label{
+    display: inline-block;
+    min-width: 100px;
+}
+.hd{
+font-size: 30px;
+font-weight: bold;
+}
+.inp{
+    font-size: 20px;
+}
+.sub{
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 10px;
+    min-height: 30px;
+    min-width: 100px;
+    border-radius: 50px;
+}
